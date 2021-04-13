@@ -15,46 +15,42 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2e2e2e;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dylan Couzon</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact infos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://github.com/Dylancouzon">Github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/dcouzon">Linkedin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" target="_blank" href="./assets/dylancouzon_resume.pdf">Resume</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #2e2e2e;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Dylan Couzon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#mainProject">Main Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#custom-cards">Side Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact infos</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
 
-    <div class="container">
+    <main class="container">
         <!-- Jumbotron -->
-        <div class="my-3 rounded-2" style="color:#d6d6d6; background-color: #666464;">
+        <div class="my-3 rounded-2" id="aboutMe" style="color:#d6d6d6; background-color: #666464;">
             <div class="container-fluid py-5 flex row align-items-start">
                 <div class="col-9">
                     <h1 class="display-3 fw-bold">Dylan Couzon</h1>
@@ -75,7 +71,7 @@
         <div class="b-example-divider"></div>
 
         <!-- The Vaccinator -->
-        <div class="container my-4">
+        <div class="container my-4" id="mainProject">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
                 <div class="col-lg-5 p-3 p-lg-5 pt-lg-3">
                     <a target="_blank" style="text-decoration:none; color:#333333;"
@@ -90,7 +86,8 @@
                         The App also includes a color-coded and interactive map with real-time data to have an idea of
                         the Covid-19 vaccination progress in the US.
                     </p>
-                    <a  href="https://github.com/Dylancouzon/GroupProject" target="_blank" class="btn btn-outline-secondary btn-lg px-4">GitHub Repository</a>
+                    <a href="https://github.com/Dylancouzon/GroupProject" target="_blank"
+                        class="btn btn-outline-secondary btn-lg px-4">GitHub Repository</a>
                 </div>
                 <div class="col-lg-6 offset-lg-1 p-0 position-relative overflow-hidden shadow-lg">
                     <div class="position-lg-absolute top-0 left-0 overflow-hidden">
@@ -106,7 +103,8 @@
         <!-- Divider -->
         <div class="b-example-divider"></div>
 
-        <div class="container py-5" id="custom-cards">
+        <!-- Other Projects -->
+        <div class="container pt-5" id="custom-cards">
             <h2 class="pb-2 border-bottom">Other Projects</h2>
 
             <div class="row py-5">
@@ -136,8 +134,8 @@
                                 <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Weather Dashboard</h2>
                             </a>
                             <a href="https://github.com/Dylancouzon/Weather-Dashboard" target="_blank"><img
-                                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                                alt="GitHub" width="32" height="32" class="rounded-circle border border-white"></a>
+                                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                    alt="GitHub" width="32" height="32" class="rounded-circle border border-white"></a>
                         </div>
                     </div>
                 </div>
@@ -152,17 +150,48 @@
                                 <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Work Day Scheduler</h2>
                             </a>
                             <a href="https://github.com/Dylancouzon/day-planner" target="_blank"><img
-                                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                                alt="GitHub" width="32" height="32" class="rounded-circle border border-white"></a>
+                                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                                    alt="GitHub" width="32" height="32" class="rounded-circle border border-white"></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-            crossorigin="anonymous"></script>
+    </main>
+
+<!-- Footer -->
+    <footer class="container pb-3" id="contact">
+        <nav class="navbar navbar-expand-md navbar-light" style="background-color: #d3d3d3;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Contact & Links</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll2"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll2">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:dylancouzon@gmail.com">Email</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://github.com/Dylancouzon">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/dcouzon">Linkedin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="./assets/dylancouzon_resume.pdf">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
