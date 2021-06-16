@@ -5,19 +5,23 @@ Portfolio #2 for UC Berkeley coding Bootcamp
 
 ![Site](./assets/images/screenshot.png)
 
-## Technologies Used
-- HTML - Creates text and differents elements 
-- CSS - styles html elements on page
-- GitHub - hosts and deploys the pages
-- Bash - Terminal
-- Bootstrap - CSS framework
+## Technology
+<img align="left" alt="HTML" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"/> &nbsp;
+<img align="left" alt="JavaScript" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"/> &nbsp;
+<img align="left" alt="Bootstrap" width="25x" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png"/>
+
+- HTML
+- CSS
+- [Bootstrap](https://getbootstrap.com/)
+<br>
+<hr>
 
 ## Summary 
 This is my second Portfolio realized for UC Berkeley Coding Bootcamp
 The App gives you access to a brief description of myself, my most recent project, some secondary projects, and my contact infos.
 
 
-## Code Snippet  
+## Code  
 ```css
 .b-divider {
     height: 3rem;
@@ -30,11 +34,18 @@ The App gives you access to a brief description of myself, my most recent projec
 This code Snippet represents the integrality of the content of my CSS file. This is a divider element that I use to separate different sections.
 All the styling & personalization has been applied through the CSS Framework.
 
+<br>
+<hr>
+
 ## Deployed Link
 
 [See Live Site](https://dylancouzon.github.io/Portfolio-2/)
 
+<br>
+<hr>
 
-## Author Links
-[LinkedIn](https://www.linkedin.com/in/dcouzon/)
-[GitHub](https://github.com/Dylancouzon)
+## Author
+- [dylancouzon@gmail.com](mailto:dylancouzon@gmail.com)
+- [GitHub](https://github.com/Dylancouzon)
+- [LinkedIn](https://www.linkedin.com/in/dcouzon/)
+
